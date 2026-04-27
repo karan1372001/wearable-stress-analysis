@@ -32,24 +32,24 @@ The aim of this project is to:
 
 The project was developed step-by-step:
 
-1. # Data Exploration**  
+1. # Data Exploration
    - Understanding structure of physiological signals  
 
-2. # Preprocessing & Label Creation**  
+2. # Preprocessing & Label Creation
    - Time alignment, cleaning, and stress label generation  
 
-3. # Feature Extraction**  
+3. # Feature Extraction
    - Sliding window approach (10s, 30s, 60s)  
    - Statistical features: mean, standard deviation  
 
-4. # Model Development**  
+4. # Model Development
    - Logistic Regression  
    - Random Forest  
 
-5. # External Validation**  
+5. # External Validation
    - Tested model on nurse dataset  
 
-6. # Feature Distribution Analysis**  
+6. # Feature Distribution Analysis
    - Compared EDA, HR, and Temperature distributions  
    - Identified why model failed  
 
@@ -90,9 +90,13 @@ This shows that the model **could not generalise to new data**
 - Data distribution plays a major role in model performance  
 
 
+
+
 # Conclusion
 
-This project successfully built a stress detection system using wearable data. However, testing on a real-world dataset revealed a complete failure in performance, highlighting the importance of generalisation and dataset differences.
+This project built a stress detection system using wearable sensor data.  
+While the model performed well on the original dataset, it failed on real-world nurse data due to differences in data distribution.  
+This highlights the importance of model generalisation and external validation in machine learning.
   
 - Handling class imbalance  
 - Training on multiple datasets  
