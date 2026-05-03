@@ -89,7 +89,7 @@ This shows that the model **could not generalise to new data**
 - External validation is essential in machine learning  
 - Data distribution plays a major role in model performance  
 
-## Conclusion
+# Conclusion
 
 This project built a stress detection system using wearable sensor data.  
 While the model performed well on the original dataset, it failed on real-world nurse data due to differences in data distribution.  
